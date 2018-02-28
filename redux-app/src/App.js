@@ -4,11 +4,9 @@ import BookDetail from './containers/BookDetail';
 import './App.css';
 
 class App extends Component {
-    state = {
-
-    }
     constructor(props) {
         super(props);
+        this.state = {};
     }
     render() {
         return (
